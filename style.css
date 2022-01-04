@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-family: 'Fugaz One';
+    font-size: 16px;
+    background-color: #FaFaFa;
+
+}
+
+section {
+    min-width: 400px;
+    max-width: 600px;
+    background-color: #FFFFFF;
+}
+
+img {
+    height: 250px;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+
+button {
+    border-radius: 50%;
+    background-color: #5dd39e;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+}
+
+.paragraph {
+    display: flex;
+    align-items: center;
+}
